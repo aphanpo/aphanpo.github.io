@@ -15,12 +15,17 @@ html, body {
 }
 
 body {
-  
-  background: #7d7e7d; /* Old browsers */
-  background: -moz-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #7d7e7d 0%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+
+  background: palegoldenrod;
+  /* background: url(butterflies-1913226.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; */
+
+  /*background: #7d7e7d; /* Old browsers */
+  /*background: -moz-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%); /* FF3.6-15 */
+ /* background: -webkit-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
+  /*background: linear-gradient(to bottom, #7d7e7d 0%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */ 
   
   /*background: #7eff83;
   background: -moz-linear-gradient(top, #7eff83 0%, #77ef7d 44%, #66cc71 100%);
@@ -34,7 +39,7 @@ body {
 }
 
 .container {
-  width:900px;
+  width:1200px;
   height:600px;
   margin:-300px 0 0 -450px;
   position:absolute;
@@ -63,8 +68,24 @@ body {
   overflow:auto;
 }
 
+.projects {
+  border-radius:5px;
+  margin: auto;
+  width: 1200px;
+}
+
+.nav {
+  background: lavender;
+  box-shadow: 5px 10px 20px rgba(100,100,100,.3);
+}
+
+.projs {
+  background: #CCC;
+  box-shadow: 5px 10px 20px rgba(100,100,100,.3);
+}
+
 .bg {
-  background:url(bg.jpg);
+  background:url(butterflies-1913226.jpg);
   background-size:cover;
   background-position:center center;
   overflow:hidden;
